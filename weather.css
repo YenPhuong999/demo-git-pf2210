@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+.display{
+    color: #606060;
+    background:#7ac4f5c7 ;
+    width: 400px;
+    margin: 50px auto;
+    border-radius:7px ;
+    font-size:18px ;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.search-bar{
+    width: 50%;
+    margin: 0 auto;
+    padding-top:25px ;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+
+}
+.icon{
+    margin-right:6px ;
+    color :slategrey;
+    left: 0;
+    position:absolute ;
+    
+}
+#search{
+    border: 0;
+    outline: 0;
+    padding: 1px 3px 3px 20px;
+    background : transparent;
+    height: 30px;
+    color :rgb(56, 60, 65);
+    
+}
+#search::placeholder {
+    color : rgb(175, 178, 214) ;
+}
+.body-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    padding: 85px 55px;
+}
+.ten-tp{
+    font-size: 18px;
+    margin-bottom: 5px ;
+}
+.state{
+    font-size: 14px;
+}
+.weather-icon{
+    width: 75px;
+    height: 75px;
+}
+.nhietdo{
+    font-size: 85px;
+    font-weight: lighter ;
+    line-height: 1;
+    position: relative;
+}
+.nhietdo::after{
+    content: "o";
+    position: absolute;
+    font-size: 40px;
+}
+.add-section{
+    border-top: 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    font-size: 14px;
+}
+.add-section .hàng{
+    margin-bottom:5px ;
+    display: flex;
+}
+.add-section .item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
